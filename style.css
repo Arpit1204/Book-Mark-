@@ -1,0 +1,73 @@
+body{margin: 0;
+    padding: 0;
+    
+    background: linear-gradient(rgb(177, 177, 215), rgb(124, 210, 124)) 
+}
+.flex{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    margin-top: 4vh;
+    height: 90px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    
+}
+.justify-centre{
+    justify-content: center;
+}
+#logo{
+    width: 99vw;
+    margin-top: 6vh;
+}
+#kalvi-logo{
+width: 100vh;
+}
+#buttons{
+    justify-content: space-around;
+}
+button{
+    height: 10vh;
+    width: 22vw;
+    font-size: 2vw;
+    background-color: rgb(255, 230, 196);
+    border: 3px solid black;
+    font-family: cursive;
+}
+button:hover{
+    background-color: rgb(255, 0, 0);
+    font-size: 3vw;
+}
+#icons{
+    justify-content: space-around;
+}
+.icons-button{
+    height: 10vh;
+    cursor: pointer;
+    width: 5vw;
+
+}
+.logos{
+    width: 100%;
+    height: 100%;
+}
+
+#quizr, #ums, #mail, #youtube, #leetcode, #sololearn{
+    width: 7vw;
+}
+ #quizr, #sololearn, #leetcode{
+    height: 12vh;
+}
+#leetcode,#ums{
+    height: 13vh;
+}
+#disney{
+    width: 6vw;
+}
